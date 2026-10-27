@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4857df">
+  <meta name="description" content="Демо образовательной платформы KSA Education для врачей и стоматологов.">
+  <title>KSA Education — обучение врачей и стоматологов</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="redesign.css">
+</head>
+<body>
+  <div class="demo-ribbon">Демо</div>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" data-page="dashboard" aria-label="KSA Education — главная">
+        <img src="assets/ksa-logo.png" alt="KSA">
+        <span><b>KSA</b><small>Education</small></span>
+      </a>
+
+      <div class="nav-label">Обучение</div>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <button class="nav-item active" data-page="dashboard"><i data-icon="home"></i><span>Главная</span></button>
+        <button class="nav-item" data-page="catalog"><i data-icon="grid"></i><span>Каталог курсов</span></button>
+        <button class="nav-item" data-page="learning"><i data-icon="book"></i><span>Моё обучение</span><em>3</em></button>
+        <button class="nav-item" data-page="certificates"><i data-icon="award"></i><span>Сертификаты</span></button>
+        <button class="nav-item" data-page="calendar"><i data-icon="calendar"></i><span>Календарь</span></button>
+      </nav>
+
+      <div class="sidebar-spacer"></div>
+      <div class="credit-card">
+        <div class="credit-ring"><span>124</span><small>часа</small></div>
+        <div><b>Ваша цель</b><p>124 из 300 часов</p></div>
+      </div>
+      <button class="nav-item"><i data-icon="help"></i><span>Поддержка</span></button>
+      <a class="association-link" href="https://ksa-fdi.kz/" target="_blank" rel="noreferrer">Сайт ассоциации <span>↗</span></a>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="icon-button menu-button" id="menuButton" aria-label="Открыть меню"><i data-icon="menu"></i></button>
+        <div class="topbar-copy"><span id="eyebrow">Личный кабинет</span><strong id="pageTitle">Обзор обучения</strong></div>
+        <div class="topbar-actions">
+          <button class="lang-button">РУ <span>⌄</span></button>
+          <button class="icon-button notification" aria-label="Уведомления"><i data-icon="bell"></i><b></b></button>
+          <button class="profile-button"><span class="avatar">АБ</span><span class="profile-copy"><b>Айгерим Бекова</b><small>Врач-стоматолог</small></span><span>⌄</span></button>
+        </div>
+      </header>
+
+      <div class="page-wrap">
+        <section class="page active" id="page-dashboard">
+          <div class="welcome-row"><div><h1>С возвращением, Айгерим <span>✺</span></h1><p>Каждый урок — ещё один шаг к уверенной практике.</p></div><span class="date-chip"><i data-icon="calendar"></i>27 октября, вторник</span></div>
+          <div class="hero-panel">
+            <div class="hero-art" aria-hidden="true"></div>
+            <div class="hero-content">
+              <span class="kicker">KSA EDUCATION · ЗНАНИЯ ДЛЯ ПРАКТИКИ</span>
+              <h2>Учитесь сегодня.<br><em>Меняйте практику завтра.</em></h2>
+              <p>Развивайте навыки вместе с профессиональным сообществом врачей и стоматологов.</p>
+              <button class="primary-button" data-page="catalog">Выбрать курс <span>→</span></button>
+            </div>
+            <div class="hero-stat"><span class="hero-check">✓</span><div><b>В вашем темпе</b><span>Учитесь там, где удобно</span></div></div>
+          </div>
+          <div class="overview-stats"><div><span class="stat-icon violet"><i data-icon="book"></i></span><div><b>2 <small>курса</small></b><span>В процессе обучения</span></div><span class="stat-detail">Продолжайте ↗</span></div><div><span class="stat-icon blue"><i data-icon="award"></i></span><div><b>3 <small>сертификата</small></b><span>В вашем портфолио</span></div></div><div><span class="stat-icon peach"><i data-icon="calendar"></i></span><div><b>124 <small>часа</small></b><span>Накоплено за обучение</span></div><span class="stat-trend">+24 за месяц</span></div></div>
+
+          <div class="section-heading">
+            <div><h2>Продолжить обучение <small>2</small></h2></div>
+            <button class="text-button" data-page="learning">Все мои курсы <span>→</span></button>
+          </div>
+
+          <div class="course-layout">
+            <article class="featured-course" data-course="endo">
+              <div class="course-visual course-endo"><span class="course-number">ОНЛАЙН-КУРС</span><div class="tooth-mark">▶</div><span class="visual-label">Эндодонтия</span></div>
+              <div class="featured-copy">
+                <div class="tag-row"><span class="tag">Клинический курс</span><span class="hours">18 зачётных часов</span></div>
+                <h3>Современная эндодонтия: от диагностики до обтурации</h3>
+                <p>Протоколы лечения корневых каналов, разбор клинических случаев и итоговая аттестация.</p>
+                <div class="mentor"><span>КСА</span><div><small>Учебная программа</small><b>Клинические кейсы и практика</b></div></div>
+                <div class="progress-block"><div><span>8 из 12 уроков пройдено</span><b>67%</b></div><div class="progress"><i style="width:67%"></i></div></div>
+                <button class="primary-button compact" data-course="endo">Продолжить <span>→</span></button>
+              </div>
+            </article>
+
+            <aside class="today-panel">
+              <div class="schedule-heading"><h3>Ближайшие события</h3><span>↗</span></div>
+              <div class="week-strip"><span>Пн<b>26</b></span><span class="selected">Вт<b>27</b></span><span>Ср<b>28</b></span><span>Чт<b>29</b></span><span>Пт<b>30</b></span></div>
+              <div class="timeline-item"><time>18:00</time><div><span class="live-dot">LIVE</span><b>Клинический разбор</b><p>Реставрация фронтальной группы</p></div></div>
+              <div class="timeline-item"><time>20:00</time><div><span class="type-dot">ТЕСТ</span><b>Контроль знаний</b><p>Модуль 3 · Эндодонтия</p></div></div>
+              <button class="outline-button" data-page="calendar">Открыть календарь</button>
+            </aside>
+          </div>
+
+          <div class="section-heading compact-heading">
+            <div><h2>Подобрано для вас</h2><p class="section-caption">Расширяйте знания в своей специальности</p></div>
+            <button class="text-button" data-page="catalog">Смотреть каталог <span>→</span></button>
+          </div>
+          <div class="cards-grid" id="dashboardCards"></div>
+        </section>
+
+        <section class="page" id="page-catalog">
+          <div class="catalog-intro"><div><span class="panel-kicker">Библиотека знаний</span><h1>Инвестируйте в свою практику</h1><p>Выберите направление, изучайте материалы и применяйте новые знания.</p></div><div class="catalog-count"><b>6</b><span>демо-курсов</span></div></div>
+          <div class="filter-row"><button class="filter active" data-filter="all">Все направления</button><button class="filter" data-filter="dentistry">Стоматология</button><button class="filter" data-filter="medicine">Общая медицина</button><button class="filter" data-filter="management">Управление</button><label class="search"><i data-icon="search"></i><input id="courseSearch" placeholder="Найти курс"></label></div>
+          <div class="cards-grid catalog-grid" id="catalogCards"></div>
+        </section>
+
+        <section class="page" id="page-learning">
+          <div class="inner-heading"><span class="panel-kicker">Персональная траектория</span><h1>Моё обучение</h1><p>Следите за прогрессом и продолжайте с последнего урока.</p></div>
+          <div class="summary-grid"><div><small>Всего курсов</small><b>3</b><span>в вашей библиотеке</span></div><div><small>Завершено</small><b>1</b><span>сертификат получен</span></div><div><small>Общий прогресс</small><b>58%</b><span>по активным курсам</span></div><div class="accent-summary"><small>Зачётные часы</small><b>124</b><span>из необходимых 300</span></div></div>
+          <div class="learning-list" id="learningList"></div>
+        </section>
+
+        <section class="page" id="page-certificates">
+          <div class="inner-heading"><span class="panel-kicker">Профессиональное портфолио</span><h1>Мои сертификаты</h1><p>Все подтверждения обучения и зачётные единицы в одном месте.</p></div>
+          <div class="certificate-hero"><div class="certificate-seal">KSA<small>EDUCATION</small></div><div><span>Образец сертификата · KSA-2026-01842</span><h2>Неотложная помощь<br>в стоматологической практике</h2><p>Айгерим Бекова · 24 зачётных часа · 12 сентября 2026</p><div class="tag-row"><span class="tag verified">✓ Обучение завершено</span></div></div><button class="primary-button compact" id="downloadCertificate">Скачать PDF <span>↓</span></button></div>
+          <div class="section-heading compact-heading"><div><span>История обучения</span><h2>Полученные сертификаты</h2></div></div>
+          <div class="certificate-list"><div><span class="mini-seal">KSA</span><div><b>Основы цифровой стоматологии</b><small>18 часов · 22 мая 2026</small></div><span class="verified-text">Проверен</span><button class="icon-button">↓</button></div><div><span class="mini-seal">KSA</span><div><b>Инфекционный контроль в клинике</b><small>12 часов · 08 февраля 2026</small></div><span class="verified-text">Проверен</span><button class="icon-button">↓</button></div></div>
+        </section>
+
+        <section class="page" id="page-calendar">
+          <div class="inner-heading"><span class="panel-kicker">Расписание</span><h1>Календарь обучения</h1><p>Вебинары, тесты и сроки завершения курсов.</p></div>
+          <div class="calendar-shell"><div class="calendar-head"><button>←</button><h2>Октябрь 2026</h2><button>→</button></div><div class="week-row"><span>ПН</span><span>ВТ</span><span>СР</span><span>ЧТ</span><span>ПТ</span><span>СБ</span><span>ВС</span></div><div class="calendar-grid" id="calendarGrid"></div></div>
+        </section>
+
+        <section class="page" id="page-course">
+          <button class="back-button" id="courseBack">← Вернуться к курсам</button>
+          <div id="courseView"></div>
+        </section>
+      </div>
+      <footer class="app-footer"><span>© 2026 KSA Education</span><span>Демонстрационные курсы, профили и результаты</span></footer>
+    </main>
+  </div>
+
+  <div class="toast" id="toast"><span>✓</span><div><b>Готово</b><p>Действие выполнено в демо-режиме</p></div></div>
+  <script src="app.js"></script>
+</body>
+</html>
